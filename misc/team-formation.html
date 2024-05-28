@@ -1,70 +1,150 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peer Evaluation Form</title>
-   	<link rel="stylesheet" href="../styles/minimal-table.css" type="text/css">
+  <link rel="stylesheet" href="../styles/minimal-table.css" type="text/css">
+  <style>
+    /* Including the provided CSS for demonstration */
+    /* Resetting default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Helvetica', Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #121212; /* Dark background color */
+      color: #e0e0e0; /* Light text color */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #1f1f1f; /* Darker background for the header */
+      color: #ff9800; /* Bright accent color */
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: #2c2c2c; /* Dark background for navigation */
+      padding: 0.5em 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ff9800; /* Bright accent color */
+      padding: 0.5em 1em;
+    }
+
+    nav ul li a:hover {
+      background-color: #ff5722; /* Bright hover color */
+    }
+
+    /* Main content styles */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2em 0;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #1f1f1f; /* Dark background for the footer */
+      color: #ff9800; /* Bright accent color */
+      text-align: center;
+      padding: 1em 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      nav ul li {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
 </head>
 
 <body>
+<header>
+  <h1>Peer Evaluation Form</h1>
+</header>
+
 <!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="../index.html">Home</a>
-  <li><a href="process.html">Process Support</a>
-</ul>
+<nav>
+  <ul class="navbar">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="process.html">Process Support</a></li>
+  </ul>
+</nav>
 
+<div class="container">
+  <h1>Team Formation Form</h1>
+  <h4>Due Date: Advised on Canvas</h4>
+  <p><em>(Team coordinator to confirm team have met with your TA)</em></p>
 
+  <h4>Team name ____________________________________________________</h4>
 
+  <h4>Team coordinator/Leader ______________________________________</h4>
 
-<h1>Team Formation Form</h1><br>
-
-<h4>Due Date:  Advised on Canvas  </h4><p><em>(Team coordinator to confirm team have met with your TA)</em></p> 
-
-<h4><p>Team name ____________________________________________________</p></h4>
-
-<h4><p>Team coordinator/Leader ______________________________________</p></h4>
-		
-<table>
-    <p>
-	<body ><th>Team Member Details</th>
-    
-        
-        <th scope="col" class="last name">Last Name</th> 
-	    <th scope="col" class="first name">First Name</th> 
-        <th scope="col" class="id">Student ID</th> 
-		
-    </tr>
-	<hr />
-	</p>
-	
-	<p align = "left"</p>
-		<th scope="row">Team Member 1</th>
-		<td></td>
-		<td></td>
+  <table>
+    <thead>
+      <tr>
+        <th>Team Member Details</th>
+        <th scope="col" class="last-name">Last Name</th>
+        <th scope="col" class="first-name">First Name</th>
+        <th scope="col" class="id">Student ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Team Member 1</th>
         <td></td>
-		
-   </tr>
-	<p align = "left"</p>
-	<th scope="row">Team Member 2</th>
         <td></td>
-		<td></td>
         <td></td>
-		
- 
-    </tr>
-	<th scope="row">Team Member 3</th>
+      </tr>
+      <tr>
+        <th scope="row">Team Member 2</th>
         <td></td>
-		<td></td>
         <td></td>
-		
-  
-    </tr>
-	
-  
-</table>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Team Member 3</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
+  <hr/>
+  <p><em>Note: These details will be provided via your group on Canvas, but here the preferred option will be to fill in the cells in your site with 'hard coded' details in this form (between each cell ('td' = "table data" element) in a row, and email the link to your TA when completed. Think of this site as a work in progress.</em></p>
+</div>
 
-<hr/>
-<p><h6><em>Note: These details will be provided via your group on Canvas, but here the preferred option will be to fill in the cells in your site with 'hard coded' details in this form(between each cell ('td' = "table data" element) in a row, and email the link to your TA when completed.  Think of this site as a work in progress.</p></h6></em> 
-
+<footer>
+  <p>&copy; 2024 Peer Evaluation Form</p>
+</footer>
 </body>
 </html>
